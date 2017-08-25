@@ -10,6 +10,9 @@
     $canvas.height = 765;
   }
 
+  var gameSoundtrack = new Audio();
+  gameSoundtrack.src = '92_Skirmish.mp3';
+
   $('#start-game').one('click',function(){
     $('canvas').show();
     $('.rules').show();
@@ -17,6 +20,7 @@
     $('.panel-2').show();
     $('.panel-2').append($('.posted-instructions'));
     $('.posted-instructions').show();
+    gameSoundtrack.play();
     gameLoop();
   })
 
