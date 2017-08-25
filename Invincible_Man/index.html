@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Invicible Man</title>
+  </head>
+
+  <body>
+    <header class="title">
+
+      <h1>Invincible Man</h1>
+
+      <nav class = "navigation">
+        <ul>
+          <li id ="start-game">Start Game</li>
+          <li id = "instructions">Instructions</li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <main class="main-content">
+
+      <div class="panel-1">
+        <p class="rules">Make it to the end of the map and don't die
+          <br>
+          <br>
+          You have a limited supply of rocks...use them wisely
+        </p>
+      </div>
+
+      <div class="gameboard">
+
+        <div class="posted-instructions">
+        <div class ="left-arrow">
+          <img src='Images/Keyboard keys/computer_key_Arrow_Left_T.png' alt="Left Arrow" width = "50" height = "50">
+          <p>Walk/Run Left</p>
+        </div>
+        <div class ="right-arrow">
+          <img src='Images/Keyboard keys/computer_key_Arrow_Right_T.png' alt="Right Arrow" width = "50" height ="50">
+          <p>Walk/Run Right</p>
+        </div>
+        <div class ="up-arrow">
+          <img src='Images/Keyboard keys/computer_key_Arrow_Up_T.png' alt="Up Arrow" width = "50" height = "50">
+          <p>Jump</p>
+        </div>
+        <div class ="Space Button">
+          <img src='Images/Keyboard keys/computer_key_Space_bar_T.png' alt="Space Button" width = "150" height = "50">
+          <p>Throws a Rock</p>
+        </div>
+        <div class ="Shift Key">
+          <img src='Images/Keyboard keys/computer_key_Shift_T.png' alt="Shift Key" width = "100" height = "50">
+          <p>Stabs Opponent</p>
+        </div>
+      </div>
+
+
+
+        <canvas class="game-window"></canvas>
+
+      </div>
+      <div class="panel-2">
+      </div>
+
+    </main>
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <script src="main2.js"></script>
+  </body>
+</html>
