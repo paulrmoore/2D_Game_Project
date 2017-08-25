@@ -8,7 +8,7 @@ The relies heavy on `Javascript` for its running. The game takes place on a canv
 
 ## Extra Aid
 
-The project was planned out using Trello.com which allows users to append cards to a board. These cards represents items that need to be done, user stories, items to do later, etc. The link to the trello board used for this project is https://trello.com/b/AlUcwlHX.
+The project was planned out using Trello.com which allows users to append cards to a board. These cards represents items that need to be done, user stories, items to do later, etc. The link to the trello board used for this project is https://trello.com/b/AlUcwlHX. I used https://wireframe.cc to draw the wireframes for my project which can be found on my trello board under the wireframe card. 
 
 ## Game Play
 
@@ -24,4 +24,4 @@ I hope to add lives to my game that way the player has multiple attempts at comp
 
 ## Bugs with Game
 
-There are a couple of problems with the game but nothing major that affects the functionality. If you walk slow enough, you can walk off the left edge of the screen and fall to your death. Another bug would be the fact that the character can hit the edge of a platform and he spawns right on top. This means that you don't actually have to land on the platform. Platform for now in this game refers to the ground. 
+There are a couple of problems with the game but nothing major that affects the functionality. If you walk slow enough, you can walk off the left edge of the screen and fall to your death. Another bug would be the fact that the character can hit the edge of a platform and he spawns right on top. This means that you don't actually have to land on the platform. Platform for now in this game refers to the ground.

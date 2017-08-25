@@ -146,7 +146,7 @@ function moveCharacter() {
     //character attacks
     else if (keys[16]) {
       characterDirection = hitting;
-      player.x += 1;
+      player.x += 3;
       for(i=0;i<enemies.length;i++) {
         if(enemies[i].alive) {
           if(detectCollision(player, enemies[i])) {
@@ -186,12 +186,12 @@ var rockCounter = 0;
 
 drawRock = function() {
   rockCounter++
-  if (rockCounter < 5000) {
+  if (rockCounter < 10000) {
   console.log(rockCounter)
   Rock.src = "Images/Sprite_FX_Rocks_0018.png";
   RockArray[0].x = player.x + player.width;
   RockArray[0].y = player.y + 10;
-  RockArray[0].velocityX = 5;
+  RockArray[0].velocityX = 8;
   RockArray[0].isFired = true;
   console.log(player.x, RockArray[0].x);
   console.log('drawRock done');
@@ -448,7 +448,7 @@ detectCollisionWithBoss = function() {
         }
         console.log('boss hit');
 			} else if(detectCollision(player, bosses[i])) {
-				player.stats='dead';
+				player.status='dead';
 			}
 		}
 	}
