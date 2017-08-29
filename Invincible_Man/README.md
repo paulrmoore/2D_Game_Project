@@ -1,6 +1,10 @@
 # Invincible Man
 
-Invincible Man is an 8-bit game designed similarly to the old 2D Mario games. The game features a main character named the Dan the Cave Man who must traverse the map and not be killed by his enemies.
+Invincible Man is an 8-bit game designed similarly to the old 2D Mario games.
+
+#Overview
+
+The game features a main character named the Dan the Cave Man who must traverse to the end of the map and not be killed by his enemies. Ideally, the player must kill all enemies before he or she can complete the level. That functionality has yet to be programmed. Once the player either dies or completes the level, he or she is alerted with a game over in the browser. Under the hood, the program uses HTML, css, and javascript.
 
 ## Technologies Used
 
@@ -8,7 +12,7 @@ The relies heavy on `Javascript` for its running. The game takes place on a canv
 
 ## Extra Aid
 
-The project was planned out using Trello.com which allows users to append cards to a board. These cards represents items that need to be done, user stories, items to do later, etc. The link to the trello board used for this project is https://trello.com/b/AlUcwlHX. I used https://wireframe.cc to draw the wireframes for my project which can be found on my trello board under the wireframe card. 
+The project was planned out using Trello.com which allows users to append cards to a board. These cards represents items that need to be done, user stories, items to do later, etc. The link to the trello board used for this project is https://trello.com/b/AlUcwlHX. I used https://wireframe.cc to draw the wireframes for my project which can be found on my trello board under the wireframe card.
 
 ## Game Play
 
